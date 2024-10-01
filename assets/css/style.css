@@ -3914,15 +3914,7 @@ textarea {
 
 /*---------------------welcm_sec hm-one-----------------------*/
 
-.welcm_sec.hme-two {
-	position: relative;
-	overflow: hidden;
-	min-height: 660px;
-	background: #fca91c;
-	background-image: url(../image/welcome/hm-2-welcome_rt.png);
-	background-repeat: no-repeat;
-	background-position: right bottom;
-}
+
 
 .welcm_sec.hme-two .pd-0 {
 	padding: 0px;
