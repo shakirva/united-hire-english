@@ -72,10 +72,34 @@
   transform: translateX(-50%);
 }
 
+.cookie-banner {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #343a40;
+            color: white;
+            padding: 10px 20px;
+            display: none; /* Initially hidden */
+            z-index: 1000;
+        }
+        .cookie-banner a {
+            color: #007bff;
+            text-decoration: underline;
+        }
 
 
-
-
+        .logo-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .logo-container {
+      padding: 20px;
+    }
+    .heading {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
 
 
 /* Adjust alignment for submenus */
@@ -83,6 +107,48 @@
 
     </style>
    </head>
+
+   <div class="page-wapper home-page-two">
+      <header class="site-header" id="header-two">
+        <div class="top-bar">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-lg-12">
+                <div class="float-left">
+                  <p>
+                    <i class="fa fa-map-marker" style="color: red; margin-right:0px;"></i>
+                    <a href="https://www.google.com/maps/place/Ludwigstra%C3%9Fe+17,+65479+Raunheim,+Germany/@50.0124534,8.4485849,17z/data=!3m1!4b1!4m6!3m5!1s0x47bd9f3d98d3e9b3:0x2b41b6ffd221367e!8m2!3d50.01245!4d8.4511598!16s%2Fg%2F11bw3zdcng?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: none; color: inherit;">
+                      United Hire - Germany 
+                      Ludwig Straße 17 
+                      65479 Raunheim, Deutschland
+                    </a>
+                    
+                  </p>
+                  <p>
+                    <i class="fa fa-map-marker" style="color: red; margin-right:0px;"></i>
+                    <a href="https://www.google.com/maps/search/+511,+Paras+Trinity,+Sector+63,++++Gurugram,+Haryana,+India/@28.3968444,77.0868178,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: none; color: inherit;">
+                      United Hire - India 
+                      511, Paras Trinity, Sector 63, 
+                      Gurugram, Haryana, India
+                    </a>
+                  </p>
+                </div>
+                <div class="float-right">
+                  <div class="inner-sec">
+                    <ul class="social-media p-3">
+                      <li><a href="https://www.facebook.com/profile.php?id=61565387860467"><i class="fa fa-facebook" style="color: #3b5998;"></i></a></li>
+                      <li><a href="https://www.instagram.com/unitedhire/"><i class="fa fa-instagram" style="color: #E1306C;"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/united-hire-"><i class="fa fa-linkedin" style="color: #0088cc;"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    
    <body class="sbar_color_two">
       <!--Start Preloader -->
         <!--Start Preloader -->
@@ -198,7 +264,7 @@
              <li class="nav-item dropdown ml-auto">
                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                 EN
-                 <i class="fa fa-chevron-down"></i>
+            
                </a>
                <ul class="dropdown-menu dropdown-menu-right " style="display: bloc; background-color: transparent; border: 0px; margin-right: -100px; margin-top: -18px; " aria-labelledby="languageDropdown"  >
                  <li><a class="dropdown-item" href="https://shakirva.github.io/united-hire/index.html">GE</a></li>
@@ -212,6 +278,13 @@
          <main class="main-content">
           
 
+
+             <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="cookie-banner text-center">
+      <span>This website uses cookies to ensure you get the best experience on our website. 
+      <a href="#">Learn more</a></span>
+      <button class="btn btn-primary btn-sm ml-3" id="acceptCookieBtn">Accept</button>
+  </div>
 
      <!------main-slider------>
      <section class="main-slider">
@@ -401,215 +474,157 @@
 </section>
 
 
-<!-- Team Section -->
+<div class="gallery_typone demo-gallery mb-4"> 
+   <div class="container-fluid">
+     <div id="lightgallery" class="list-unstyled row gallery_typone-outer">
 
-
-
-<!-------testimonial_sec----->
-
-
-
-
-
-
-  <div class="gallery_typone demo-gallery mb-4"> 
-    <div class="container-fluid">
-      <div id="lightgallery" class="list-unstyled row gallery_typone-outer">
-
-<!--         
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-1.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                   <img  src="assets/image/1.jpeg" class="img-fluid" alt="img">
-         
-                     </a>
-            </div>
-         </div>
-          
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-2.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                   <img  src="assets/image/12.jpg" class="img-fluid" alt="img">
-         </a>
-                     
-            </div>
-         </div>
-        
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-3.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                 <img  src="assets/image/13.jpg" class="img-fluid" alt="img">
-           </a>
-           
-            </div>
-         </div>
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                  <img  src="assets/image/14.png" class="img-fluid" alt="img">
-              </a>
-              
-            </div>
-         </div> -->
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                  <img  src="assets/image/15.jpg" class="img-fluid" alt="img">
-              </a>
-              
-            </div>
-         </div>
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                   <img  src="assets/image/16.jpg" class="img-fluid" alt="img">
-              </a>
-              
-            </div>
-         </div>
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-            <div class="gallery_typone-image">
-                  <img  src="assets/image/00.png" class="img-fluid" alt="img">
-              </a>
-              
-            </div>
-         </div>
-         <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-5.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-            <div class="gallery_typone-image">
-                   <img  src="assets/image/18.png"
-              
-            </div>
-         </div>
-         
        
-         </div>
-         </div>
-         </div>
         
-      </div>
-   </div>
+        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/15.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
+           <div class="gallery_typone-image">
+                   <img  src="assets/image/15.jpg" class="img-fluid" alt="img">
+             </a>
+             
+           </div>
+        </div>
+        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/16.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
+           <div class="gallery_typone-image">
+                  <img  src="assets/image/16.jpg" class="img-fluid" alt="img">
+             </a>
+             
+           </div>
+        </div>
+        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/00.png" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
+           <div class="gallery_typone-image">
+                   <img  src="assets/image/00.png" class="img-fluid" alt="img">
+             </a>
+             
+           </div>
+        </div>
+        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/18.png" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+           <div class="gallery_typone-image">
+                 <img  src="assets/image/18.png"
+             
+           </div>
+        </div>
+        
+      
+        </div>
+        </div>
+        </div>
+       
+     </div>
+  </div>
 </div> 
 
-<section class="testimonial_sec type_two " style="background-color: white;">
-   <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <div  class="heading clearfix">
-                  <h1 class="text-blue">Success Stories from Our Clients</h1>
-                  <p class="text-blue">Discover how United Hire has helped individuals achieve their goals. Students starting new lives in Germany, our success stories speak to the trust and results we deliver.</p>
+      <section class="testimonial_sec type_two">
+         <div class="container">
+           <div class="row">
+             <div class="col-lg-12">
+               <div class="heading clearfix text-center">
+                 <h1 class="text-blue">Success Stories from Our Clients</h1>
+                 <p class="text-blue">Discover how United Hire has helped individuals achieve their goals. Students starting new lives in Germany, our success stories speak to the trust and results we deliver.</p>
                </div>
-            </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <div class="owl-carousel owl-theme two-item">
+                 <!-- Testimonial 1 -->
+                 <div class="testimonial_content_ty_two d-flex flex-column justify-content-center align-items-center" style="min-height: 300px;">
+                   <div class="description bg-blue p-3 text-center" style="min-height: 150px; width: 100%;">
+                     <p class="text-white">"I always dreamed of starting a career in healthcare, but didn’t know how to begin. Thanks to United Hire, I secured an Ausbildung in healthcare and relocated to Germany smoothly..."</p>
+                   </div>
+                   <div class="client_details mt-3 d-flex flex-column justify-content-center align-items-center">
+                     <img src="assets/image/mary.jpg" class="img-fluid rounded-circle" alt="test" style="width: 80px; height: 80px;" />
+                     <div class="client_in text-center">
+                       <h6>Mary, India</h6>
+                       <span>Client</span>
+                     </div>
+                   </div>
+                 </div>
+       
+                 <!-- Testimonial 2 -->
+                 <div class="testimonial_content_ty_two d-flex flex-column justify-content-center align-items-center" style="min-height: 300px;">
+                   <div class="description bg-orange p-3 text-center" style="min-height: 150px; width: 100%;">
+                     <p class="text-white">"United Hire helped me secure a spot in a nursing Ausbildung program in Germany. They made the visa process simple and supported me with relocation..."</p>
+                   </div>
+                   <div class="client_details mt-3 d-flex flex-column justify-content-center align-items-center">
+                     <img src="assets/image/ebina.jpg" class="img-fluid rounded-circle" alt="test" style="width: 80px; height: 80px;" />
+                     <div class="client_in text-center">
+                       <h6>Ebina, India</h6>
+                       <span>Client</span>
+                     </div>
+                   </div>
+                 </div>
+       
+                 <!-- Testimonial 3 -->
+                 <div class="testimonial_content_ty_two d-flex flex-column justify-content-center align-items-center" style="min-height: 300px;">
+                   <div class="description bg-yellow p-3 text-center" style="min-height: 150px; width: 100%;">
+                     <p class="text-white">"With United Hire’s help, I joined a nursing Ausbildung program and relocated to Germany smoothly..."</p>
+                   </div>
+                   <div class="client_details mt-3 d-flex flex-column justify-content-center align-items-center">
+                     <img src="assets/image/ebana.jpg" class="img-fluid rounded-circle" alt="test" style="width: 80px; height: 80px;" />
+                     <div class="client_in text-center">
+                       <h6>Ebana, India</h6>
+                       <span>Client</span>
+                     </div>
+                   </div>
+                 </div>
+       
+                 <!-- Add more testimonials as needed -->
+               </div>
+             </div>
+           </div>
          </div>
-         <div class="row">
-         <div class="col-lg-12">
-         <div class="owl-carousel owl-theme two-item">
+       </section>
 
-            <div class="testimonial_content_ty_two ">
-               <div class="description bg-blue">
-               <p class="text-white">"When I began looking for the "best" center for Max I chose Medicol. You are the best. Many thanks to you and your warm, concerned staff for providing a safe haven for Max and giving me much needed respite. We will see how his nasty disease progresses and if possible will send him again next summer… "</p>
-               </div>
-               <div class="client_details">
-                     <img src="assets/image/ebina.jpg" class="img-fluid" alt="test" />
-                  <div class="client_in">
-                     <h6>Ebina</h6>
-                     <span>Client</span>
-                  </div>
-               </div>
-            </div>
-            <div class="testimonial_content_ty_two">
-                  <div class="description bg-orange">
-                  <p class="text-white">"Three and a half months ago, my family lost someone that meant the world to us: my father. We made many trips to Medicol with my father for comfort care. We did have a few star employees that deserve recognition. We will never take that from him, but he adored two employees and they were great to him."</p>
-                  </div>
-                  <div class="client_details">
-                        <img src="assets/image/ebana.jpg" class="img-fluid" alt="test" />
-                     <div class="client_in">
-                        <h6>Ebana</h6>
-                        <span>Client</span>
-                     </div>
-                  </div>
-               </div>
-               <div class="testimonial_content_ty_two">
-                     <div class="description bg-yellow">
-                     <p class="text-white">"Three and a half months ago, my family lost someone that meant the world to us: my father. We made many trips to Medicol with my father for comfort care. We did have a few star employees that deserve recognition. We will never take that from him, but he adored two employees and they were great to him."</p>
-                     </div>
-                     <div class="client_details">
-                           <img src="assets/image/mary.jpg" class="img-fluid" alt="test" />
-                        <div class="client_in">
-                           <h6>Mary</h6>
-                           <span>Client</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               </div>
-               
-         
-         <div class="col-lg-12">
-         <div class="owl-carousel owl-theme client-carousel">
 
-          <div class="item"><img src="assets/image/client/client-hm-1.jpg" class="img-fluid" alt="img" /></div>
-          <div class="item"><img src="assets/image/client/client-hm-2.jpg" class="img-fluid" alt="img" /></div>
-          <div class="item"><img src="assets/image/client/client-hm-3.jpg" class="img-fluid" alt="img" /></div>
-          <div class="item"><img src="assets/image/client/client-hm-4.jpg" class="img-fluid" alt="img" /></div>
-          <div class="item"><img src="assets/image/client/client-hm-5.jpg" class="img-fluid" alt="img" /></div>
+<section class="mt-5" style="background-color:#ffffff; margin-top: -90px;">
+   <div class="container p-5 mb-5 fw-bold">
+     <h2 class="heading text-blue mb-5 text-center">OUR PARTNERS</h2>
+ 
+     <div class="row mt-5">
+       <!-- First Row of 3 Logos -->
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/1-logo.png" alt="Logo 1" class="logo-img" style="max-height: 100px;">
          </div>
-      </div>
+       </div>
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/2-logo.png" alt="Logo 2" class="logo-img" style="max-height: 100px;">
          </div>
-      
+       </div>
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/5-logo.png" alt="Logo 3" class="logo-img" style="max-height: 100px;">
+         </div>
+       </div>
+     </div>
+ 
+     <div class="row mt-5">
+       <!-- Second Row of 3 Logos -->
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/4-logo.png" alt="Logo 4" class="logo-img" style="max-height: 100px;">
+         </div>
+       </div>
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/3-logo.png" alt="Logo 5" class="logo-img" style="max-height: 100px;">
+         </div>
+       </div>
+       <div class="col-md-4 d-flex justify-content-center mt-3">
+         <div class="logo-container shadow-sm text-center bg-white d-flex align-items-center justify-content-center" style="height: 200px; width: 100%;">
+           <img src="assets/image/6-logo.png" alt="Logo 6" class="logo-img" style="max-height: 100px;">
+         </div>
+       </div>
+     </div>
    </div>
-</section>
-<!----------------Popular Articles---------------->
+ </section>
+ 
 
-<!-- <div class="popular_articles  type_two">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="heading text-center">
-               <h1>Popular Articles</h1>
-               <p>The most popular health news articles posted in 2018 are shown below. To view article details, please click article title</p>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="owl-carousel three-item">
-
-               <div class="popular_articles_content">
-                  <div class="image">
-                     <img src="assets/image/articles/hm-2-articles-1.jpg" class="img-fluid" alt="articles">
-                     <a href="#" class="link"></a>
-                  </div>
-                  <div class="articles_content">
-                     <p>Business  .  <span>July 10, 2018</span></p>
-                     <h6>Thousands of Patients Referred to Substance Use Treatment </h6>
-                     <a href="#">Read More</a>
-                  </div>
-               </div>
-
-               <div class="popular_articles_content">
-                     <div class="image">
-                        <img src="assets/image/articles/hm-2-articles-2.jpg" class="img-fluid" alt="articles">
-                        <a href="#" class="link"></a>
-                     </div>
-                     <div class="articles_content">
-                        <p>Lifestyle .  <span>  April 04, 2018 </span></p>
-                        <h6>Medstar Health Bel Air Cancer Services Aligns Expertise </h6>
-                        <a href="#">Read More</a>
-                     </div>
-                  </div>
-
-                  <div class="popular_articles_content">
-                        <div class="image">
-                           <img src="assets/image/articles/hm-2-articles-3.jpg" class="img-fluid" alt="articles">
-                           <a href="#" class="link"></a>
-                        </div>
-                        <div class="articles_content">
-                           <p> Experience  .  <span> February 20, 2018 </span></p>
-                           <h6>Dr. Gabriel Del Corral Joins MedStar Plastic & Reconstructive Surgery </h6>
-                           <a href="#">Read More</a>
-                        </div>
-                     </div>
-
-            </div>
-         </div>
-      </div>
-
-   </div>
-</div> -->
 
 <!--------footer-------->
    <div class="footer type_two p-5">
@@ -768,5 +783,91 @@
       <script src="assets/js/map-script.js"></script>
       
       <!--End Google Map APi-->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Cookie Consent</title>
+          <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+          <style>
+              /* Custom styling for the cookie banner */
+              .cookie-banner {
+                  position: fixed;
+                  bottom: 0;
+                  width: 100%;
+                  background-color: #343a40;
+                  color: white;
+                  padding: 10px 20px;
+                  display: none; /* Initially hidden */
+                  z-index: 1000;
+              }
+              .cookie-banner a {
+                  color: #007bff;
+                  text-decoration: underline;
+              }
+          </style>
+      </head>
+      <body>
+      
+          <!-- Cookie Consent Banner -->
+          <div id="cookieBanner" class="cookie-banner text-center">
+              <span>This website uses cookies to ensure you get the best experience on our website. 
+              <a href="#">Learn more</a></span>
+              <button class="btn btn-primary btn-sm ml-3" id="acceptCookieBtn">Accept</button>
+          </div>
+      
+     
+          <!-- Bootstrap JS and jQuery -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+          <script>
+              // JavaScript for Cookie Consent
+              document.addEventListener("DOMContentLoaded", function () {
+                  // Check if consent has already been given
+                  if (!getCookie("cookieConsent")) {
+                      document.getElementById("cookieBanner").style.display = "block";
+                  }
+      
+                  // Handle Accept button click
+                  document.getElementById("acceptCookieBtn").addEventListener("click", function () {
+                      setCookie("cookieConsent", "accepted", 365); // Set consent for 1 year
+                      document.getElementById("cookieBanner").style.display = "none";
+                  });
+              });
+      
+              // Function to set a cookie
+              function setCookie(cname, cvalue, exdays) {
+                  var d = new Date();
+                  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                  var expires = "expires=" + d.toUTCString();
+                  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+              }
+      
+              // Function to get a cookie
+              function getCookie(cname) {
+                  var name = cname + "=";
+                  var decodedCookie = decodeURIComponent(document.cookie);
+                  var ca = decodedCookie.split(';');
+                  for (var i = 0; i < ca.length; i++) {
+                      var c = ca[i];
+                      while (c.charAt(0) == ' ') {
+                          c = c.substring(1);
+                      }
+                      if (c.indexOf(name) == 0) {
+                          return c.substring(name.length, c.length);
+                      }
+                  }
+                  return "";
+              }
+          </script>
+      
+      </body>
+      </html>
+      
+
+
    </body>
 </html>
